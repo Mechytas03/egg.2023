@@ -11,7 +11,7 @@ package egg;
  * @author Luz Fernandez
  */
 import java.util.Scanner;
-public class NombreClase1 {
+public class NombreClase {
     public static void main(String[] args) {
        //aca se ejectuta el programa
        //int num declarar una variable como entero
@@ -34,35 +34,6 @@ public class NombreClase1 {
        
        int suma = num1 + num2;
        System.out.println("el resultado es" + suma);
-       
-               
-               
-               
-       
-    }
-}
-public class NombreClase2 {
-    public static void main(String[] args) {
-     Scanner leer = new Scanner(System.in);
-     System.out.println("ingrese su nombre");
-     String nombre = leer.next();
-     System.out.println(nombre);
-     
-       
-               
-               
-               
-       
-    }
-}
-public class NombreClase3 {
-    public static void main(String[] args) {
-     Scanner leer = new Scanner(System.in);
-     System.out.println("ingrese una frase pedorra");
-     String frase = leer.nextLine();
-     System.out.println(frase.toLowerCase());
-     System.out.println(frase.toUpperCase());
-     
        
                
                
