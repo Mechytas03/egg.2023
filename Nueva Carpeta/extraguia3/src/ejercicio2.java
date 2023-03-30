@@ -25,6 +25,7 @@ public class ejercicio2 {
         int B;
         int C;
         int D;
+        int auxi=0;
         System.out.println("ingrese todos los valores distintos");
         System.out.println("asignele un valor a A");
         A=leer.nextInt();
@@ -35,10 +36,20 @@ public class ejercicio2 {
           System.out.println("asignele un valor a D");
         D=leer.nextInt();
         
-        System.out.println("el valor de A era " + A + " y ahora  es " + D);
-        System.out.println("el valor de B era " + B + " y ahora es " + C);
-        System.out.println("el valor de C era " + C + " y ahora es " + A);
-        System.out.println("el valor de D era " + D + " y ahora es " + B);
+      //  System.out.println("el valor de A era " + A + " y ahora  es " + D);
+      //  System.out.println("el valor de B era " + B + " y ahora es " + C);
+      //  System.out.println("el valor de C era " + C + " y ahora es " + A);
+      //  System.out.println("el valor de D era " + D + " y ahora es " + B);
+     
+    A=D;
+    B=C;
+    C=auxi;
+    auxi=A;
+    D=B;
+            System.out.println("el valor de A ahora  es " + A);
+       System.out.println("el valor de B ahora es " + B);
+       System.out.println("el valor de C  ahora es " + C);
+        System.out.println("el valor de D ahora es " + D);     
     }
     
 }

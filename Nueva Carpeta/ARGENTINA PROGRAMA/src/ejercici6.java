@@ -73,16 +73,17 @@ public class ejercici6 {
                      switch (respuesta) {
                  case 1:
                      System.out.print(" la respuesta es " +( numero2 + numero ));
-                      continue;
+                      break;
                  case 2:
                      System.out.print( " la respuesta es " +(numero2 - numero));
-                     continue;
+                     break;
                 case 3:
                      System.out.print(" la respuesta es " + (numero2 * numero));
-                     continue
+                     break;
                  case 4:
                      System.out.print(" la respuesta es " + (numero2 / numero));
-                     continue;
+                     break;
+                     
                 default:
                      System.out.print(" adios");
                      break;

@@ -8,6 +8,7 @@ día, 2 horas.
  */
 
 import java.util.Scanner;
+
 /**
  *
  * @author Luz Fernandez
@@ -19,26 +20,26 @@ public class EjerciciosExtraguia3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-           Scanner leer = new Scanner(System.in);
-         
-           
-           System.out.println("ingrese los minutos");
-           System.out.println("----------------------------------");
-        int min = leer.nextInt();
-                int hor = (min / 60)-24;
-//2 horas
-                int dias = (min/ 60)/24;
-                
-                        
- System.out.println("----------------------------------");
-           
-           System.out.println("en horas seria " + hor );
-           System.out.println("----------------------------------");
-           System.out.println("en dias seria " + dias );
-           System.out.println("----------------------------------");
-           
-           
-    }
-    
-}
+        Scanner leer = new Scanner(System.in);
 
+        System.out.println("ingrese los minutos");
+        System.out.println("----------------------------------");
+        int min = leer.nextInt();
+        int hor = (min / 60);
+//2 horas
+        int dias = 0;
+        while (hor > 24 ) {
+            dias = dias + 1;
+            hor = hor - 24;
+        }
+
+        System.out.println("----------------------------------");
+
+        System.out.println("en horas seria " + hor);
+        System.out.println("----------------------------------");
+        System.out.println("en dias seria " + dias);
+        System.out.println("----------------------------------");
+
+    }
+
+}

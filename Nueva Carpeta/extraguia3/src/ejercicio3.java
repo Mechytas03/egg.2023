@@ -1,4 +1,4 @@
-/*
+-/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -25,6 +25,8 @@ public class ejercicio3 {
         // System.out.println(letra.toLowerCase());
         if (letra.equals("E") || letra.equals("I") || letra.equals("O") || letra.equals("U")||  letra.equals("A") ||  letra.equals("a")||  letra.equals("e")||  letra.equals("i")||  letra.equals("o")||  letra.equals("u")){
         System.out.println("es vocal");
+        
+        //El equals y el equalsIgnoreCase sirve para comparar dos cosas
     } else  {
             System.out.println("no es vocal");
          
@@ -32,8 +34,5 @@ public class ejercicio3 {
    
 }
 
-    private static void toLowerCase() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
 }

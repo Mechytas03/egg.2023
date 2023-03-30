@@ -9,7 +9,7 @@ public class ejercicio7jere {
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
         String cadena;
         int contadorCorrectas = 0;
-        int contadorIncorrectas = 0;
+        int contadorIncorrectas = -1;
         do {
             System.out.println("Ingrese una cadena");
             cadena = leer.next();
